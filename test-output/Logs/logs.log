@@ -1,0 +1,23 @@
+[DEBUG] - [18-10-2025 20:14:45] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [18-10-2025 20:14:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[INFO] - [18-10-2025 20:14:46] [main] [com.AutomationExercise.FileUtils] - File deleted: C:\Users\dell\IdeaProjects\AutomationExerciseetest-output\Logs\logs.log
+[INFO] - [18-10-2025 20:14:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [18-10-2025 20:14:46] [main] [com.AutomationExercise.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [18-10-2025 20:14:46] [main] [com.AutomationExercise.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [18-10-2025 20:14:46] [main] [com.AutomationExercise.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [18-10-2025 20:14:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [18-10-2025 20:14:46] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [18-10-2025 20:14:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [18-10-2025 20:14:46] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [18-10-2025 20:14:48] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [18-10-2025 20:14:48] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [18-10-2025 20:14:48] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [18-10-2025 20:14:48] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [18-10-2025 20:14:54] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/
+[INFO] - [18-10-2025 20:14:54] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case signUpTC started
+[INFO] - [18-10-2025 20:14:54] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case signUpTC passed
+[ERROR] - [18-10-2025 20:14:55] [main] [com.AutomationExercise.utils.report.AllureReportGenerator] - Error copying history files Directory 'C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\full-report\history' does not exist.
+[INFO] - [18-10-2025 20:14:59] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-18_08-14-59.html".
+[INFO] - [18-10-2025 20:14:59] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
