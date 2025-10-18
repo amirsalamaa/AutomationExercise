@@ -23,7 +23,7 @@ public class Verification extends BaseAssertion{
     }
 
     @Override
-    protected void assertEquals(String actual, String expected, String message) {
+    public void assertEquals(String actual, String expected, String message) {
         Assert.assertEquals(actual, expected, message);
     }
 }
