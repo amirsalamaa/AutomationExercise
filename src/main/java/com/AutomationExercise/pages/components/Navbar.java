@@ -25,12 +25,13 @@ public class Navbar {
     private final By deleteAccountLink = By.xpath("//a[normalize-space(.)=\"Delete Account\"]");
     private final By homePageLabel = By.cssSelector("h1 > span");
     private final By userLabel = By.tagName("b");
+    private final By logoutLink = By.xpath("//a[.=\" Logout\"]");
 
 
     //actions
     @Step("Navigate to base URL")
     public Navbar navigate(){
-        driver.browser().navigateTo(PropertyReader.getProperty("baseUrl"));
+        driver.browser().navigateTo(PropertyReader.getProperty("baseUrlWeb"));
         return this;
     }
     @Step("Click on Home link in Navbar")
@@ -49,9 +50,9 @@ public class Navbar {
         return new CartPage(driver);
     }
     @Step("Click on Signup/Login link in Navbar")
-    public SignUpPage clickOnSignupLoginLink() {
+    public SignUpLoginPage clickOnSignupLoginLink() {
         driver.element().click(signupLoginLink);
-        return new SignUpPage(driver);
+        return new SignUpLoginPage(driver);
     }
     @Step("Click on Test Cases link in Navbar")
     public TestCasesPage clickOnTestCasesLink() {
@@ -89,6 +90,11 @@ public class Navbar {
         String actualUsername = driver.element().getText(userLabel);
         driver.verify().Equals(actualUsername, expectedUsername, "Username in navbar does not match expected.");
         return this;
+    }
+    @Step("Click on Logout link in Navbar")
+    public SignUpLoginPage clickOnLogoutLink() {
+        driver.element().click(logoutLink);
+        return new SignUpLoginPage(driver);
     }
 
 

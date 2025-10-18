@@ -3,8 +3,10 @@ package com.AutomationExercise.utils.actions;
 import com.AutomationExercise.utils.WaitManager;
 import com.AutomationExercise.utils.logs.LogsManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
 
@@ -97,6 +99,24 @@ public class ElementActions {
         ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("""
                 arguments[0].scrollIntoView({behaviour:"auto",block:"center",inline:"center"});""", findElement(locator));
         LogsManager.info("Scrolled to element: " + locator);
+    }
+    //select from dropdown
+    public ElementActions selectFromDropdown(By locator, String value) {
+        waitManager.fluentWait().until(d ->
+                {
+                    try {
+                        WebElement element = d.findElement(locator);
+                        scrollToElementJs(locator);
+                        Select select = new Select(element);
+                        select.selectByVisibleText(value);
+                        LogsManager.info("Selected value '" + value + "' from dropdown: " + locator);
+                        return true;
+                    } catch (Exception e) {
+                        return false;
+                    }
+                }
+        );
+        return this;
     }
 
     //find element
