@@ -1,2 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","46","signUpTC","Automation Exercise","2025-10-18","passed","2025-10-18","com.AutomationExercise.tests.RegisterTest","AutomationExercisee","com.AutomationExercise.tests.RegisterTest","signUpTC"
+"Verify that user cannot log in with invalid email","3788","InvalidEmailLoginTC","Automation Exercise","2025-10-25","passed","2025-10-25","com.AutomationExercise.tests.ui.LoginTest","AutomationExercisee","com.AutomationExercise.tests.ui.LoginTest","InvalidEmailLoginTC"
+"Verify that user cannot log in with invalid password","2595","InvalidPasswordLoginTC","Automation Exercise","2025-10-25","passed","2025-10-25","com.AutomationExercise.tests.ui.LoginTest","AutomationExercisee","com.AutomationExercise.tests.ui.LoginTest","InvalidPasswordLoginTC"
+"Verify that user can log in with valid credentials","3627","ValidLoginTC","Automation Exercise","2025-10-25","passed","2025-10-25","com.AutomationExercise.tests.ui.LoginTest","AutomationExercisee","com.AutomationExercise.tests.ui.LoginTest","ValidLoginTC"

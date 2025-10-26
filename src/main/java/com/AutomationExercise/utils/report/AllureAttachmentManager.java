@@ -1,16 +1,14 @@
 package com.AutomationExercise.utils.report;
 
-import com.AutomationExercise.media.ScreenRecordManager;
 import com.AutomationExercise.utils.logs.LogsManager;
 import io.qameta.allure.Allure;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.LoggerContext;
 
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
-
-import static com.AutomationExercise.utils.dataReader.PropertyReader.getProperty;
 
 public class AllureAttachmentManager {
     // attachScreenshot, attachLogs, attachRecords methods would go here
@@ -18,12 +16,25 @@ public class AllureAttachmentManager {
         try {
             Path screenshot = Path.of(path);
             if (Files.exists(screenshot)) {
-                Allure.addAttachment(name, Files.newInputStream(screenshot));
+                Allure.addAttachment(name, "image/png", Files.newInputStream(screenshot), ".png");
             } else {
                 LogsManager.error("Screenshot not found: " + path);
             }
         } catch (Exception e) {
             LogsManager.error("Error attaching screenshot", e.getMessage());
+        }
+    }
+
+    // New helper: attach screenshot directly from bytes (no disk required)
+    public static void attachScreenshot(String name, byte[] imageBytes) {
+        try {
+            if (imageBytes == null || imageBytes.length == 0) {
+                LogsManager.warn("Empty screenshot bytes, nothing to attach for: ", name);
+                return;
+            }
+            Allure.addAttachment(name, "image/png", new ByteArrayInputStream(imageBytes), ".png");
+        } catch (Exception e) {
+            LogsManager.error("Error attaching screenshot bytes", e.getMessage());
         }
     }
 
@@ -40,17 +51,17 @@ public class AllureAttachmentManager {
         }
     }
 
-    public static void attachRecords(String testMethodName) {
-        if (getProperty("recordTests").equalsIgnoreCase("true")) {
-            try {
-                File record = new File(ScreenRecordManager.RECORDINGS_PATH + testMethodName);
-                if (record != null && record.getName().endsWith(".mp4")) {
-                    Allure.addAttachment(testMethodName, "video/mp4", Files.newInputStream(record.toPath()), ".mp4");
-                }
-            } catch (Exception e) {
-                LogsManager.error("Error attaching records", e.getMessage());
-            }
-        }
-    }
+//    public static void attachRecords(String testMethodName) {
+//        if (getProperty("recordTests").equalsIgnoreCase("true")) {
+//            try {
+//                File record = new File(ScreenRecordManager.RECORDINGS_PATH + testMethodName);
+//                if (record != null && record.getName().endsWith(".mp4")) {
+//                    Allure.addAttachment(testMethodName, "video/mp4", Files.newInputStream(record.toPath()), ".mp4");
+//                }
+//            } catch (Exception e) {
+//                LogsManager.error("Error attaching records", e.getMessage());
+//            }
+//        }
+//    }
 
 }

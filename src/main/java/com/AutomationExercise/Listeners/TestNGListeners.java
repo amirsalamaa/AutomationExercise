@@ -3,8 +3,7 @@ package com.AutomationExercise.Listeners;
 import com.AutomationExercise.FileUtils;
 import com.AutomationExercise.drivers.UITest;
 import com.AutomationExercise.drivers.WebDriverProvider;
-import com.AutomationExercise.media.ScreenRecordManager;
-import com.AutomationExercise.media.ScreenshotsManager;
+import com.AutomationExercise.media.ScreenShotsManager;
 import com.AutomationExercise.utils.dataReader.PropertyReader;
 import com.AutomationExercise.utils.logs.LogsManager;
 import com.AutomationExercise.utils.report.AllureAttachmentManager;
@@ -43,32 +42,45 @@ public class TestNGListeners implements ISuiteListener, IExecutionListener, IInv
         }
 
 
-        public void beforeInvocation(IInvokedMethod method, ITestResult testResult) {
-
-            if (method.isTestMethod()) {
-                if (testResult.getInstance() instanceof UITest)
-                {
-                    ScreenRecordManager.startRecording();
-                }
-                LogsManager.info("Test Case " + testResult.getName() + " started");
-            }
-        }
+//        public void beforeInvocation(IInvokedMethod method, ITestResult testResult) {
+//
+//            if (method.isTestMethod()) {
+//                if (testResult.getInstance() instanceof UITest)
+//                {
+//                    ScreenRecordManager.startRecording();
+//                }
+//                LogsManager.info("Test Case " + testResult.getName() + " started");
+//            }
+//        }
 
         public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
             WebDriver driver = null;
             if (method.isTestMethod())
             {
-                if (testResult.getInstance().getClass().isAnnotationPresent(UITest.class))
-                {
-                    ScreenRecordManager.stopRecording(testResult.getName());
-                    if (testResult.getInstance() instanceof WebDriverProvider provider)
+                Object instance = testResult.getInstance();
+
+                // Prefer getting driver from WebDriverProvider if available (works even without @UITest)
+                if (instance instanceof WebDriverProvider provider) {
+                    try {
                         driver = provider.getWebDriver(); //initialize driver from WebDriverProvider
-                    switch (testResult.getStatus()){
-                        case ITestResult.SUCCESS -> ScreenshotsManager.takeFullPageScreenshot(driver,"passed-" + testResult.getName());
-                        case ITestResult.FAILURE -> ScreenshotsManager.takeFullPageScreenshot(driver,"failed-" + testResult.getName());
-                        case ITestResult.SKIP -> ScreenshotsManager.takeFullPageScreenshot(driver,"skipped-" + testResult.getName());
+                    } catch (Exception ignored) {
+                        LogsManager.warn("Unable to get WebDriver from provider for test:", testResult.getName());
                     }
-                    AllureAttachmentManager.attachRecords(testResult.getName());
+                }
+
+                // If the class is annotated with @UITest we may have additional behaviors (e.g. recordings)
+                boolean isUiTest = instance != null && instance.getClass().isAnnotationPresent(UITest.class);
+
+                if (driver != null) {
+                    switch (testResult.getStatus()){
+                        case ITestResult.SUCCESS -> ScreenShotsManager.takeFullPageScreenshot(driver,"passed-" + testResult.getName());
+                        case ITestResult.FAILURE -> ScreenShotsManager.takeFullPageScreenshot(driver,"failed-" + testResult.getName());
+                        case ITestResult.SKIP -> ScreenShotsManager.takeFullPageScreenshot(driver,"skipped-" + testResult.getName());
+                    }
+//                    if (isUiTest) AllureAttachmentManager.attachRecords(testResult.getName());
+                } else if (isUiTest) {
+                    // annotated as UI test but driver not available — log a helpful message
+                    LogsManager.warn("Test marked as @UITest but WebDriver instance was not available for:", testResult.getName());
                 }
 
                 Validation.assertAll(testResult);
@@ -96,16 +108,18 @@ public class TestNGListeners implements ISuiteListener, IExecutionListener, IInv
         private void cleanTestOutputDirectories() {
             // Implement logic to clean test output directories
             FileUtils.cleanDirectory(AllureConstants.RESULTS_FOLDER.toFile());
-            FileUtils.cleanDirectory(new File(ScreenshotsManager.SCREENSHOTS_PATH));
-            FileUtils.cleanDirectory(new File(ScreenRecordManager.RECORDINGS_PATH));
+            String screenshotsPath = String.valueOf(AllureConstants.USER_DIR) + File.separator + "test-output" + File.separator + "screenshots";
+            FileUtils.cleanDirectory(new File(screenshotsPath));
+//            FileUtils.cleanDirectory(new File(ScreenRecordManager.RECORDINGS_PATH));
             FileUtils.cleanDirectory(new File("src/test/resources/downloads/"));
-            FileUtils.forceDelete(new File(LogsManager.LOGS_PATH +"logs.log"));
+            FileUtils.forceDelete(new File(LogsManager.LOGS_PATH +File.separator+ "logs.log"));
         }
 
         private void createTestOutputDirectories() {
             // Implement logic to create test output directories
-            FileUtils.createDirectory(ScreenshotsManager.SCREENSHOTS_PATH);
-            FileUtils.createDirectory(ScreenRecordManager.RECORDINGS_PATH);
+            String screenshotsPath = String.valueOf(AllureConstants.USER_DIR) + File.separator + "test-output" + File.separator + "screenshots";
+            FileUtils.createDirectory(screenshotsPath);
+//            FileUtils.createDirectory(ScreenRecordManager.RECORDINGS_PATH);
             FileUtils.createDirectory("src/test/resources/downloads/");
 
         }
