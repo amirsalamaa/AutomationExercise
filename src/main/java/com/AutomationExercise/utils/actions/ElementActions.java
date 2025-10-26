@@ -38,7 +38,7 @@ public class ElementActions {
     }
 
     //Typing
-    public void type(By locator, String text) {
+    public ElementActions type(By locator, String text) {
         waitManager.fluentWait().until(d ->
                 {
                     try {
@@ -55,6 +55,7 @@ public class ElementActions {
                     }
                 }
         );
+        return this;
     }
 
     //Getting text
@@ -112,6 +113,24 @@ public class ElementActions {
                         LogsManager.info("Selected value '" + value + "' from dropdown: " + locator);
                         return true;
                     } catch (Exception e) {
+                        return false;
+                    }
+                }
+        );
+        return this;
+    }
+    public ElementActions hoverOverElement(By locator) {
+        waitManager.fluentWait().until(d ->
+                {
+                    try {
+                        WebElement element = d.findElement(locator);
+                        scrollToElementJs(locator);
+                        org.openqa.selenium.interactions.Actions actions = new org.openqa.selenium.interactions.Actions(driver);
+                        actions.moveToElement(element).perform();
+                        LogsManager.info("Hovered over element: " + locator);
+                        return true;
+                    } catch (Exception e) {
+                        LogsManager.error("Failed to hover over element: " + locator + " - " + e.getMessage());
                         return false;
                     }
                 }

@@ -36,11 +36,18 @@ public class FileUtils {
     //creating Directory
     public static void createDirectory(String path) {
         try {
-            File file = new File(USER_DIR+ path);
+            File file;
+            File provided = new File(path);
+            if (provided.isAbsolute()) {
+                file = provided;
+            } else {
+                file = new File(USER_DIR+ path);
+            }
+
             if (!file.exists())
             {
                 file.mkdirs();
-                LogsManager.info("Directory created: " + path);
+                LogsManager.info("Directory created: " + file.getAbsolutePath());
             }
         }
         catch (Exception e) {
@@ -51,7 +58,7 @@ public class FileUtils {
     //force delete
     public static void forceDelete(File file) {
         try {
-            org.apache.commons.io.FileUtils.forceDeleteOnExit(file);
+            org.apache.commons.io.FileUtils.forceDelete(file);
             LogsManager.info("File deleted: " + file.getAbsolutePath());
         } catch (IOException e) {
             LogsManager.error("Failed to delete file: " + file.getAbsolutePath(), e.getMessage());

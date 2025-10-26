@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","46","signUpTC","Automation Exercise","2025-10-18","passed","2025-10-18","com.AutomationExercise.tests.RegisterTest","AutomationExercisee","com.AutomationExercise.tests.RegisterTest","signUpTC"
+"Search for a product and validate its details","2274","searchForProductWithoutLoginTC","Automation Exercise","2025-10-26","passed","2025-10-26","com.AutomationExercise.tests.ui.ProductTest","AutomationExercisee","com.AutomationExercise.tests.ui.ProductTest","searchForProductWithoutLoginTC"

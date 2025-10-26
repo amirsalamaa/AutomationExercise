@@ -3,10 +3,12 @@ package com.AutomationExercise.pages;
 import com.AutomationExercise.drivers.GUIDriver;
 import com.AutomationExercise.pages.components.Navbar;
 import com.AutomationExercise.utils.dataReader.PropertyReader;
+import com.AutomationExercise.utils.logs.LogsManager;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class SignUpPage {
+
 
     private final GUIDriver driver;
     public SignUpPage(GUIDriver driver) {
@@ -32,9 +34,9 @@ public class SignUpPage {
     private final By city = By.id("city");
     private final By zipcode = By.id("zipcode");
     private final By mobileNumber = By.id("mobile_number");
-    private final By createAccountButton = By.cssSelector("[data-qa=\"create-account\"]");
+    private final By createAccountButton = By.xpath("//button[@data-qa='create-account']");
     private final By accountCreatedLabel = By.tagName("p");
-    private final By continueButton = By.cssSelector("[data-qa=\"continue-button\"]");
+    private final By continueButton = By.xpath("//a[@data-qa='continue-button']");
 
 
 
@@ -47,7 +49,6 @@ public class SignUpPage {
     }
     @Step("Fill Registration form")
     public SignUpPage fillRegisterationForm(String title,
-                                            String name,
                                             String passwordText,
                                             String dayText,
                                             String monthText,
@@ -64,7 +65,6 @@ public class SignUpPage {
                                             String mobileNumberText) {
 
         chooseTitle(title);
-        driver.element().type(this.name,name);
         driver.element().type(password, passwordText);
         driver.element().selectFromDropdown(day, dayText);
         driver.element().selectFromDropdown(month, monthText);
@@ -90,19 +90,21 @@ public class SignUpPage {
     }
     @Step("Click on Continue button")
     public Navbar clickOnContinueButton(){
+        LogsManager.info("Clicking on Continue button to navigate to home page");
         driver.element().click(continueButton);
         return new Navbar(driver);}
 
     //validations
     @Step("Validate account created successfully")
 public SignUpPage verifyAccountCreatedSuccessfully(){
-        driver.verify().isElementVisible(accountCreatedLabel);
-        return this;}
+        LogsManager.info("Verifying account created successfully");
+        driver.verify().assertPageUrl(PropertyReader.getProperty("baseUrlWeb")+"/account_created");
+        return new SignUpPage(driver);}
 
     @Step("Validate continue to home page")
     public SignUpPage verifyContinueToHomePage(){
         String expectedUrl= PropertyReader.getProperty("baseUrlWeb");
         driver.verify().assertPageUrl(expectedUrl);
-        return this;
+        return new SignUpPage(driver);
     }
 }

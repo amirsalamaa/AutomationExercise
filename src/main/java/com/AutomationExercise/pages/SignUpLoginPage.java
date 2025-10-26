@@ -63,9 +63,9 @@ public class SignUpLoginPage {
         return this;
     }
     @Step("Click on sign up button")
-    public SignUpPage clickOnSignUpButton(){
+    public SignUpLoginPage clickOnSignUpButton(){
         driver.element().click(signUpButton);
-        return new SignUpPage(driver);
+        return new SignUpLoginPage(driver);
     }
 
 
