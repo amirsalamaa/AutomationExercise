@@ -12,44 +12,39 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-@Epic("Automation Exercise")
-@Feature("UI Products Management")
-@Story("Products Management")
-@Severity(SeverityLevel.CRITICAL)
-@Owner("Amir Salama")
-@UITest
-public class ProductTest extends BaseTest {
 
+@Epic("Products Management")
+@Feature("UI Product Details")
+@Story("Product Details")
+@Severity(SeverityLevel.CRITICAL)
+@Owner("AmirSalama")
+@UITest
+public class ProductDetailsTest extends BaseTest {
 
     @Test
-    @Description("Search for a product and validate its details")
-    public void searchForProductWithoutLoginTC(){
-        //navigate to products page
+    public void verifyProductDetailsTCWithoutLogin()
+    {
         new ProductsPage(driver)
                 .navigate()
-                .clickOnAddToCart(testData.getJsonData("product1.name"))
-                .validateProductDetails(testData.getJsonData("product1.name"),
-                        testData.getJsonData("product1.price")
-                );
+                .clickOnViewProduct(testData.getJsonData("product.name"))
+                .verifyProductDetails(testData.getJsonData("product.name"),testData.getJsonData("product.price"));
     }
 
     @Test
-    @Description("Add a product to cart without login")
-    public void addProductToCartWithoutLoginTC(){
-
+    public void verifyReviewMessageTCWithoutLogin()
+    {
         new ProductsPage(driver)
                 .navigate()
-                .clickOnAddToCart(testData.getJsonData("product1.name"))
-                .validateItemAddedLabel(
-                        testData.getJsonData("messages.cartAdded")
-                );
+                .clickOnViewProduct(testData.getJsonData("product.name"))
+                .addReview(testData.getJsonData("review.name"),testData.getJsonData("review.email"),testData.getJsonData("review.review"))
+                .verifyReviewMsg(testData.getJsonData("messages.review"));
     }
 
 
     //Configurations
     @BeforeClass
     protected void preCondition() {
-        testData = new JsonReader("productsData");
+        testData = new JsonReader("productDetails");
     }
     @BeforeMethod
     public void setUp() {

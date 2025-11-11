@@ -12,50 +12,43 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-@Epic("Automation Exercise")
-@Feature("UI Products Management")
-@Story("Products Management")
+
+@Epic("Cart Management")
+@Feature("UI Cart Details")
+@Story("Cart Details")
 @Severity(SeverityLevel.CRITICAL)
-@Owner("Amir Salama")
+@Owner("AmirSalama")
 @UITest
-public class ProductTest extends BaseTest {
+public class CartTest extends BaseTest {
 
 
     @Test
-    @Description("Search for a product and validate its details")
-    public void searchForProductWithoutLoginTC(){
-        //navigate to products page
+    public void verifyProductDetailsOnCartWithoutLogin() {
         new ProductsPage(driver)
                 .navigate()
-                .clickOnAddToCart(testData.getJsonData("product1.name"))
-                .validateProductDetails(testData.getJsonData("product1.name"),
-                        testData.getJsonData("product1.price")
+                .clickOnAddToCart(testData.getJsonData("product.name"))
+                .validateItemAddedLabel(testData.getJsonData("messages.cartAdded"))
+                .clickOnViewCart()
+                .verifyProductDetailsOnCart(
+                        testData.getJsonData("product.name"),
+                        testData.getJsonData("product.price"),
+                        testData.getJsonData("product.quantity"),
+                        testData.getJsonData("product.total")
                 );
     }
-
-    @Test
-    @Description("Add a product to cart without login")
-    public void addProductToCartWithoutLoginTC(){
-
-        new ProductsPage(driver)
-                .navigate()
-                .clickOnAddToCart(testData.getJsonData("product1.name"))
-                .validateItemAddedLabel(
-                        testData.getJsonData("messages.cartAdded")
-                );
-    }
-
 
     //Configurations
     @BeforeClass
     protected void preCondition() {
-        testData = new JsonReader("productsData");
+        testData = new JsonReader("cartData");
     }
     @BeforeMethod
     public void setUp() {
         driver = new GUIDriver();
         new Navbar(driver).navigate();
+
     }
+
     @AfterMethod
     public void tearDown() {
         driver.quitDriver();

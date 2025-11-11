@@ -6,6 +6,7 @@ import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.URI;
@@ -19,6 +20,7 @@ public class ChromeFactory extends AbstractDriver {
         options.addArguments("--disable-popup-blocking");
         options.addArguments("--disable-infobars");
         options.addArguments("--disable-extensions");
+        options.setCapability(CapabilityType.ENABLE_DOWNLOADS, true);
         options.addArguments("--disable-gpu");
         options.addArguments("--start-maximized");
         if(PropertyReader.getProperty("executionType").equalsIgnoreCase("LocalHeadless") ||

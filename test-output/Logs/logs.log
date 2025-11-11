@@ -21887,3 +21887,1144 @@ Session ID: 3e5ffe020a67b8cbe4aab6ffd5d07f70
 [INFO] - [26-10-2025 12:49:09] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case searchForProductWithoutLoginTC passed
 [INFO] - [26-10-2025 12:49:15] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-26_12-49-15.html".
 [INFO] - [26-10-2025 12:49:15] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [27-10-2025 11:25:46] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [27-10-2025 11:25:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [27-10-2025 11:25:46] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [27-10-2025 11:25:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [27-10-2025 11:25:46] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [27-10-2025 11:25:46] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [27-10-2025 11:25:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [27-10-2025 11:25:46] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [27-10-2025 11:25:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [27-10-2025 11:25:47] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [27-10-2025 11:25:49] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [27-10-2025 11:25:49] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [27-10-2025 11:25:49] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [27-10-2025 11:25:49] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [27-10-2025 11:25:56] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['companyName']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipCode']
+[DEBUG] - [27-10-2025 11:25:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [27-10-2025 11:25:59] [main] [com.AutomationExercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [27-10-2025 11:25:59] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[DEBUG] - [27-10-2025 11:25:59] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] - [27-10-2025 11:26:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [27-10-2025 11:26:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'test2025-10-27_11-25-49@gmail.com' into element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [27-10-2025 11:26:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'test2025-10-27_11-25-49@gmail.com' into element: By.xpath: //input[@data-qa='login-email']
+[DEBUG] - [27-10-2025 11:26:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [27-10-2025 11:26:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [27-10-2025 11:26:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'test' into element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [27-10-2025 11:26:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'test' into element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [27-10-2025 11:26:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //button[@data-qa='login-button']
+[INFO] - [27-10-2025 11:26:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@data-qa='login-button']
+[DEBUG] - [27-10-2025 11:26:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [27-10-2025 11:26:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.tagName: b
+[INFO] - [27-10-2025 11:26:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'testname_' from element: By.tagName: b
+[DEBUG] - [27-10-2025 11:26:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [27-10-2025 11:26:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [27-10-2025 11:26:01] [main] [com.AutomationExercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [27-10-2025 11:26:02] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-ValidLoginTC-2025-10-27_11-26-02.png
+[INFO] - [27-10-2025 11:26:02] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-ValidLoginTC
+[INFO] - [27-10-2025 11:26:02] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case ValidLoginTC passed
+[INFO] - [27-10-2025 11:26:08] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-27_11-26-08.html".
+[INFO] - [27-10-2025 11:26:08] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [27-10-2025 11:27:56] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [27-10-2025 11:27:57] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [27-10-2025 11:27:57] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [27-10-2025 11:27:57] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [27-10-2025 11:27:57] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [27-10-2025 11:27:57] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [27-10-2025 11:27:57] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [27-10-2025 11:27:57] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [27-10-2025 11:27:57] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [27-10-2025 11:27:57] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [27-10-2025 11:27:58] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [27-10-2025 11:27:58] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [27-10-2025 11:27:58] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [27-10-2025 11:27:59] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [27-10-2025 11:28:02] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [27-10-2025 11:28:03] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[DEBUG] - [27-10-2025 11:28:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [27-10-2025 11:28:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[DEBUG] - [27-10-2025 11:28:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['cartAdded']
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:04] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:05] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:05] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:05] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:05] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Your product has been added to cart.' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:28:05] [main] [com.AutomationExercise.pages.ProductsPage] - Validating item added label: Your product has been added to cart.
+[INFO] - [27-10-2025 11:28:05] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-searchForProductWithoutLoginTC-2025-10-27_11-28-05.png
+[INFO] - [27-10-2025 11:28:05] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-searchForProductWithoutLoginTC
+[INFO] - [27-10-2025 11:28:05] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case searchForProductWithoutLoginTC passed
+[INFO] - [27-10-2025 11:28:10] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-27_11-28-10.html".
+[INFO] - [27-10-2025 11:28:10] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [27-10-2025 11:30:00] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [27-10-2025 11:30:01] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [27-10-2025 11:30:01] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [27-10-2025 11:30:01] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [27-10-2025 11:30:01] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [27-10-2025 11:30:01] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [27-10-2025 11:30:01] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [27-10-2025 11:30:01] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [27-10-2025 11:30:01] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [27-10-2025 11:30:01] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [27-10-2025 11:30:02] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [27-10-2025 11:30:02] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [27-10-2025 11:30:02] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [27-10-2025 11:30:02] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [27-10-2025 11:30:06] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [27-10-2025 11:30:06] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[DEBUG] - [27-10-2025 11:30:07] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[DEBUG] - [27-10-2025 11:30:07] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] - [27-10-2025 11:30:07] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['price']
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='overlay-content'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='overlay-content'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='overlay-content'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.xpath: //div[@class='overlay-content'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='overlay-content'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Men Tshirt' from element: By.xpath: //div[@class='overlay-content'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='overlay-content'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='overlay-content'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='overlay-content'] /p[.='Men Tshirt'] //preceding-sibling::h2
+[INFO] - [27-10-2025 11:30:07] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.xpath: //div[@class='overlay-content'] /p[.='Men Tshirt'] //preceding-sibling::h2
+[INFO] - [27-10-2025 11:30:08] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='overlay-content'] /p[.='Men Tshirt'] //preceding-sibling::h2
+[INFO] - [27-10-2025 11:30:08] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 400' from element: By.xpath: //div[@class='overlay-content'] /p[.='Men Tshirt'] //preceding-sibling::h2
+[INFO] - [27-10-2025 11:30:08] [main] [com.AutomationExercise.pages.ProductsPage] - Validating product details for: Men Tshirt  with price: Rs. 400
+[INFO] - [27-10-2025 11:30:08] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-searchForProductWithoutLoginTC-2025-10-27_11-30-08.png
+[INFO] - [27-10-2025 11:30:08] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-searchForProductWithoutLoginTC
+[INFO] - [27-10-2025 11:30:08] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case searchForProductWithoutLoginTC passed
+[INFO] - [27-10-2025 11:30:13] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-27_11-30-13.html".
+[INFO] - [27-10-2025 11:30:13] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [27-10-2025 11:30:44] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [27-10-2025 11:30:44] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [27-10-2025 11:30:44] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [27-10-2025 11:30:44] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [27-10-2025 11:30:44] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [27-10-2025 11:30:44] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [27-10-2025 11:30:44] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [27-10-2025 11:30:44] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [27-10-2025 11:30:44] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [27-10-2025 11:30:45] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [27-10-2025 11:30:46] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [27-10-2025 11:30:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [27-10-2025 11:30:46] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [27-10-2025 11:30:46] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [27-10-2025 11:30:49] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[DEBUG] - [27-10-2025 11:30:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[DEBUG] - [27-10-2025 11:30:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['cartAdded']
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:51] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Your product has been added to cart.' from element: By.cssSelector: .modal-body > p
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.pages.ProductsPage] - Validating item added label: Your product has been added to cart.
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-addProductToCartWithoutLoginTC-2025-10-27_11-30-52.png
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-addProductToCartWithoutLoginTC
+[INFO] - [27-10-2025 11:30:52] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case addProductToCartWithoutLoginTC passed
+[INFO] - [27-10-2025 11:30:58] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-10-27_11-30-58.html".
+[INFO] - [27-10-2025 11:30:58] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [11-11-2025 11:18:57] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 11:18:58] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 11:18:58] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 11:18:58] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 11:18:58] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 11:18:58] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 11:18:58] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 11:18:58] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 11:18:58] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 11:18:58] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 11:19:00] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 11:19:00] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [11-11-2025 11:19:00] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [11-11-2025 11:19:00] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [11-11-2025 11:19:21] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [11-11-2025 11:19:21] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[DEBUG] - [11-11-2025 11:19:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[DEBUG] - [11-11-2025 11:19:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['cartAdded']
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 11:19:22] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 11:19:23] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 11:19:23] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Your product has been added to cart.' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 11:19:23] [main] [com.AutomationExercise.pages.ProductsPage] - Validating item added label: Your product has been added to cart.
+[INFO] - [11-11-2025 11:19:23] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-addProductToCartWithoutLoginTC-2025-11-11_11-19-23.png
+[INFO] - [11-11-2025 11:19:23] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-addProductToCartWithoutLoginTC
+[INFO] - [11-11-2025 11:19:23] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case addProductToCartWithoutLoginTC passed
+[INFO] - [11-11-2025 11:19:29] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-11-11_11-19-29.html".
+[INFO] - [11-11-2025 11:19:29] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [11-11-2025 11:19:46] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 11:19:47] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 11:19:47] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 11:19:47] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 11:19:47] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 11:19:47] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 11:19:47] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 11:19:47] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 11:19:47] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 11:19:47] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 11:19:48] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 11:19:48] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [11-11-2025 11:19:48] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [11-11-2025 11:19:48] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [11-11-2025 11:19:52] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['companyName']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipCode']
+[DEBUG] - [11-11-2025 11:19:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [11-11-2025 11:19:57] [main] [com.AutomationExercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [11-11-2025 11:19:57] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[DEBUG] - [11-11-2025 11:19:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] - [11-11-2025 11:19:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 11:19:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'test2025-11-11_11-19-48@gmail.com' into element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 11:19:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'test2025-11-11_11-19-48@gmail.com' into element: By.xpath: //input[@data-qa='login-email']
+[DEBUG] - [11-11-2025 11:19:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [11-11-2025 11:19:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 11:19:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'test' into element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 11:19:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'test' into element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 11:19:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //button[@data-qa='login-button']
+[INFO] - [11-11-2025 11:19:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@data-qa='login-button']
+[DEBUG] - [11-11-2025 11:19:58] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [11-11-2025 11:19:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.tagName: b
+[INFO] - [11-11-2025 11:19:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'testname_' from element: By.tagName: b
+[DEBUG] - [11-11-2025 11:19:58] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [11-11-2025 11:19:58] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [11-11-2025 11:19:59] [main] [com.AutomationExercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [11-11-2025 11:20:00] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-ValidLoginTC-2025-11-11_11-20-00.png
+[INFO] - [11-11-2025 11:20:00] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-ValidLoginTC
+[INFO] - [11-11-2025 11:20:00] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case ValidLoginTC passed
+[INFO] - [11-11-2025 11:20:06] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-11-11_11-20-06.html".
+[INFO] - [11-11-2025 11:20:06] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [11-11-2025 11:20:26] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 11:20:26] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 11:20:26] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 11:20:26] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 11:20:26] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 11:20:26] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 11:20:26] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 11:20:26] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 11:20:26] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 11:20:26] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 11:20:27] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 11:20:27] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [11-11-2025 11:20:28] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [11-11-2025 11:20:28] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [11-11-2025 11:20:31] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='signup-name']
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'testname_' into element: By.xpath: //input[@data-qa='signup-name']
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'testname_' into element: By.xpath: //input[@data-qa='signup-name']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='signup-email']
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'testemail_2025-11-11_11-20-27@gmail.com' into element: By.xpath: //input[@data-qa='signup-email']
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'testemail_2025-11-11_11-20-27@gmail.com' into element: By.xpath: //input[@data-qa='signup-email']
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //button[@data-qa='signup-button']
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@data-qa='signup-button']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['companyName']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipCode']
+[DEBUG] - [11-11-2025 11:20:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@value='Mr']
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //input[@value='Mr']
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: password
+[INFO] - [11-11-2025 11:20:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'testpassword12345@' into element: By.id: password
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'testpassword12345@' into element: By.id: password
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: days
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Selected value '1' from dropdown: By.id: days
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: months
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Selected value 'January' from dropdown: By.id: months
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: years
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Selected value '2000' from dropdown: By.id: years
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: newsletter
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.id: newsletter
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: optin
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.id: optin
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: first_name
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'testfirstname_' into element: By.id: first_name
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'testfirstname_' into element: By.id: first_name
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: last_name
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'testlastname_' into element: By.id: last_name
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'testlastname_' into element: By.id: last_name
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: company
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'testcompany' into element: By.id: company
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'testcompany' into element: By.id: company
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: address1
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'testaddress1' into element: By.id: address1
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'testaddress1' into element: By.id: address1
+[INFO] - [11-11-2025 11:20:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: address2
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'testaddress2' into element: By.id: address2
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'testaddress2' into element: By.id: address2
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: country
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Selected value 'India' from dropdown: By.id: country
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: state
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'teststate' into element: By.id: state
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'teststate' into element: By.id: state
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: city
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'testcity' into element: By.id: city
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'testcity' into element: By.id: city
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: zipcode
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: '12345' into element: By.id: zipcode
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: '12345' into element: By.id: zipcode
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: mobile_number
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: '1234567890' into element: By.id: mobile_number
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: '1234567890' into element: By.id: mobile_number
+[INFO] - [11-11-2025 11:20:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //button[@data-qa='create-account']
+[INFO] - [11-11-2025 11:20:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@data-qa='create-account']
+[INFO] - [11-11-2025 11:20:35] [main] [com.AutomationExercise.pages.SignUpPage] - Verifying account created successfully
+[INFO] - [11-11-2025 11:20:35] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-ValidSignUpTC-2025-11-11_11-20-35.png
+[INFO] - [11-11-2025 11:20:35] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-ValidSignUpTC
+[INFO] - [11-11-2025 11:20:35] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case ValidSignUpTC passed
+[INFO] - [11-11-2025 11:20:41] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-11-11_11-20-41.html".
+[INFO] - [11-11-2025 11:20:41] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [11-11-2025 12:00:36] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 12:00:36] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 12:00:36] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 12:00:36] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 12:00:36] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 12:00:36] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 12:00:36] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 12:00:36] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 12:00:36] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 12:00:37] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 12:00:38] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 12:00:38] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [11-11-2025 12:00:38] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [11-11-2025 12:00:38] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [11-11-2025 12:00:43] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [11-11-2025 12:00:44] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[DEBUG] - [11-11-2025 12:00:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['name']
+[INFO] - [11-11-2025 12:00:44] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //p[.='Blue Top'] //following::div[@class='choose'][1]
+[INFO] - [11-11-2025 12:00:45] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //p[.='Blue Top'] //following::div[@class='choose'][1]
+[DEBUG] - [11-11-2025 12:00:45] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['name']
+[DEBUG] - [11-11-2025 12:00:45] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['price']
+[INFO] - [11-11-2025 12:00:45] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .product-information > h2
+[INFO] - [11-11-2025 12:00:45] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Blue Top' from element: By.cssSelector: .product-information > h2
+[INFO] - [11-11-2025 12:00:45] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .product-information > span > span
+[INFO] - [11-11-2025 12:00:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 500' from element: By.cssSelector: .product-information > span > span
+[INFO] - [11-11-2025 12:00:46] [main] [com.AutomationExercise.pages.ProductDetailsPage] - actual product name: Blue Top actual price: Rs. 500
+[INFO] - [11-11-2025 12:00:46] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-verifyProductDetailsTCWithoutLogin-2025-11-11_12-00-46.png
+[INFO] - [11-11-2025 12:00:46] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-verifyProductDetailsTCWithoutLogin
+[INFO] - [11-11-2025 12:00:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case verifyProductDetailsTCWithoutLogin passed
+[INFO] - [11-11-2025 12:00:52] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-11-11_12-00-52.html".
+[INFO] - [11-11-2025 12:00:52] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [11-11-2025 12:02:18] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 12:02:19] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 12:02:19] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 12:02:19] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 12:02:19] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 12:02:19] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 12:02:19] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 12:02:19] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 12:02:19] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 12:02:19] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 12:02:22] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 12:02:22] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [11-11-2025 12:02:22] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [11-11-2025 12:02:22] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [11-11-2025 12:02:25] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [11-11-2025 12:02:26] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[DEBUG] - [11-11-2025 12:02:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['name']
+[INFO] - [11-11-2025 12:02:26] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //p[.='Blue Top'] //following::div[@class='choose'][1]
+[INFO] - [11-11-2025 12:02:27] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //p[.='Blue Top'] //following::div[@class='choose'][1]
+[DEBUG] - [11-11-2025 12:02:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['name']
+[DEBUG] - [11-11-2025 12:02:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['price']
+[INFO] - [11-11-2025 12:02:27] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .product-information > h2
+[INFO] - [11-11-2025 12:02:27] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Blue Top' from element: By.cssSelector: .product-information > h2
+[INFO] - [11-11-2025 12:02:27] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .product-information > span > span
+[INFO] - [11-11-2025 12:02:27] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 500' from element: By.cssSelector: .product-information > span > span
+[INFO] - [11-11-2025 12:02:27] [main] [com.AutomationExercise.pages.ProductDetailsPage] - actual product name: Blue Top actual price: Rs. 500
+[INFO] - [11-11-2025 12:02:27] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-verifyProductDetailsTCWithoutLogin-2025-11-11_12-02-27.png
+[INFO] - [11-11-2025 12:02:27] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-verifyProductDetailsTCWithoutLogin
+[INFO] - [11-11-2025 12:02:27] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case verifyProductDetailsTCWithoutLogin passed
+[INFO] - [11-11-2025 12:02:33] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-11-11_12-02-33.html".
+[INFO] - [11-11-2025 12:02:33] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [11-11-2025 12:02:38] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 12:02:39] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 12:02:39] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 12:02:39] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 12:02:39] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 12:02:39] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 12:02:39] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 12:02:39] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 12:02:39] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 12:02:39] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 12:02:40] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 12:02:40] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [11-11-2025 12:02:40] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [11-11-2025 12:02:40] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [11-11-2025 12:02:43] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [11-11-2025 12:02:44] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[DEBUG] - [11-11-2025 12:02:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['name']
+[INFO] - [11-11-2025 12:02:44] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //p[.='Blue Top'] //following::div[@class='choose'][1]
+[INFO] - [11-11-2025 12:02:45] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //p[.='Blue Top'] //following::div[@class='choose'][1]
+[DEBUG] - [11-11-2025 12:02:45] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['review']['name']
+[DEBUG] - [11-11-2025 12:02:45] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['review']['email']
+[DEBUG] - [11-11-2025 12:02:45] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['review']['review']
+[INFO] - [11-11-2025 12:02:45] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: name
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'Automation Tester' into element: By.id: name
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'Automation Tester' into element: By.id: name
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: email
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'automationtester@gmail.com' into element: By.id: email
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'automationtester@gmail.com' into element: By.id: email
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: review
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'Great product!' into element: By.id: review
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'Great product!' into element: By.id: review
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: button-review
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.id: button-review
+[DEBUG] - [11-11-2025 12:02:46] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['review']
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: #review-section span
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Thank you for your review.' from element: By.cssSelector: #review-section span
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.pages.ProductDetailsPage] - actual msg: Thank you for your review.
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-verifyReviewMessageTCWithoutLogin-2025-11-11_12-02-46.png
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-verifyReviewMessageTCWithoutLogin
+[INFO] - [11-11-2025 12:02:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case verifyReviewMessageTCWithoutLogin passed
+[INFO] - [11-11-2025 12:02:53] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-11-11_12-02-53.html".
+[INFO] - [11-11-2025 12:02:53] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [11-11-2025 12:21:51] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 12:21:51] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 12:21:52] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 12:21:52] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 12:21:52] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 12:21:52] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 12:21:52] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 12:21:52] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 12:21:52] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 12:21:52] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 12:21:53] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 12:21:53] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [11-11-2025 12:21:53] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [11-11-2025 12:21:53] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [11-11-2025 12:22:01] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[INFO] - [11-11-2025 12:22:02] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[DEBUG] - [11-11-2025 12:22:02] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['name']
+[INFO] - [11-11-2025 12:22:02] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [11-11-2025 12:22:02] [main] [com.AutomationExercise.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [11-11-2025 12:22:02] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [11-11-2025 12:22:02] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[DEBUG] - [11-11-2025 12:22:02] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['cartAdded']
+[INFO] - [11-11-2025 12:22:02] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 12:22:02] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 12:22:02] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 12:22:02] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 12:22:02] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 12:22:02] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Your product has been added to cart.' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.pages.ProductsPage] - Validating item added label: Your product has been added to cart.
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: p > [href="/view_cart"]
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.cssSelector: p > [href="/view_cart"]
+[DEBUG] - [11-11-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['name']
+[DEBUG] - [11-11-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['price']
+[DEBUG] - [11-11-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['quantity']
+[DEBUG] - [11-11-2025 12:22:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product']['total']
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'])[1]
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Men Tshirt' from element: By.xpath: (//h4  /a[.='Men Tshirt'])[1]
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1]
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 400' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1]
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1]
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1]
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1]
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 400' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1]
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-verifyProductDetailsOnCartWithoutLogin-2025-11-11_12-22-03.png
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-verifyProductDetailsOnCartWithoutLogin
+[INFO] - [11-11-2025 12:22:03] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case verifyProductDetailsOnCartWithoutLogin passed
+[INFO] - [11-11-2025 12:22:09] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-11-11_12-22-09.html".
+[INFO] - [11-11-2025 12:22:09] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [11-11-2025 19:57:10] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 19:57:10] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 19:57:10] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 19:57:10] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 19:57:10] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 19:57:10] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 19:57:10] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 19:57:10] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 19:57:10] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 19:57:10] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 19:57:12] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 19:57:12] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [11-11-2025 19:57:12] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [11-11-2025 19:57:12] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [11-11-2025 19:57:24] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['companyName']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [11-11-2025 19:57:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [11-11-2025 19:57:27] [main] [com.AutomationExercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [11-11-2025 19:57:28] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-registerNewAccount-2025-11-11_07-57-28.png
+[INFO] - [11-11-2025 19:57:28] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-registerNewAccount
+[INFO] - [11-11-2025 19:57:28] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case registerNewAccount passed
+[INFO] - [11-11-2025 19:57:29] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[INFO] - [11-11-2025 19:57:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 19:57:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'automationcheckout_1762883832590@gmail.com' into element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 19:57:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'automationcheckout_1762883832590@gmail.com' into element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 19:57:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 19:57:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'P@ssw0rd' into element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 19:57:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'P@ssw0rd' into element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 19:57:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //button[@data-qa='login-button']
+[INFO] - [11-11-2025 19:57:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@data-qa='login-button']
+[INFO] - [11-11-2025 19:57:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.tagName: b
+[INFO] - [11-11-2025 19:57:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_checkout' from element: By.tagName: b
+[INFO] - [11-11-2025 19:57:30] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-loginToAccount-2025-11-11_07-57-30.png
+[INFO] - [11-11-2025 19:57:30] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-loginToAccount
+[INFO] - [11-11-2025 19:57:30] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case loginToAccount passed
+[INFO] - [11-11-2025 19:57:31] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[INFO] - [11-11-2025 19:57:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [11-11-2025 19:57:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [11-11-2025 19:57:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [11-11-2025 19:57:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [11-11-2025 19:57:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Your product has been added to cart.' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.pages.ProductsPage] - Validating item added label: Your product has been added to cart.
+[INFO] - [11-11-2025 19:57:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: p > [href="/view_cart"]
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.cssSelector: p > [href="/view_cart"]
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'])[1]
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Men Tshirt' from element: By.xpath: (//h4  /a[.='Men Tshirt'])[1]
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1]
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 400' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1]
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1]
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1]
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1]
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 400' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1]
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-addProductToCart-2025-11-11_07-57-33.png
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-addProductToCart
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case addProductToCart passed
+[INFO] - [11-11-2025 19:57:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //a[.='Proceed To Checkout']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[.='Proceed To Checkout']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Mr. Automation_Firstname Automation_Lastname' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Company' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address1' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address2' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '12345 Automation_City Automation_State' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'India' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_phone']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1234567890' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_phone']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Mr. Automation_Firstname Automation_Lastname' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Company' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address1' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address2' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '12345 Automation_City Automation_State' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'India' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_phone']
+[INFO] - [11-11-2025 19:57:35] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1234567890' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_phone']
+[INFO] - [11-11-2025 19:57:36] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-checkout-2025-11-11_07-57-36.png
+[INFO] - [11-11-2025 19:57:36] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-checkout
+[INFO] - [11-11-2025 19:57:36] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case checkout passed
+[INFO] - [11-11-2025 19:57:41] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-11-11_07-57-41.html".
+[INFO] - [11-11-2025 19:57:42] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [11-11-2025 19:58:42] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 19:58:43] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 19:58:43] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 19:58:43] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 19:58:43] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 19:58:43] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 19:58:43] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 19:58:43] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 19:58:43] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 19:58:43] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 19:58:44] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 19:58:44] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[DEBUG] - [11-11-2025 19:58:56] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 19:58:57] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 19:58:57] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 19:58:57] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 19:58:57] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 19:58:57] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 19:58:57] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 19:58:57] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 19:58:57] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 19:58:57] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 19:58:59] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 19:58:59] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[DEBUG] - [11-11-2025 20:04:20] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 20:04:20] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 20:04:20] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 20:04:20] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 20:04:20] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 20:04:20] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 20:04:20] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 20:04:20] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 20:04:20] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 20:04:20] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 20:04:22] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 20:04:22] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [11-11-2025 20:04:22] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [11-11-2025 20:04:22] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [11-11-2025 20:04:25] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['companyName']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [11-11-2025 20:04:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [11-11-2025 20:04:28] [main] [com.AutomationExercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [11-11-2025 20:04:29] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-registerNewAccount-2025-11-11_08-04-29.png
+[INFO] - [11-11-2025 20:04:29] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-registerNewAccount
+[INFO] - [11-11-2025 20:04:29] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case registerNewAccount passed
+[INFO] - [11-11-2025 20:04:29] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[INFO] - [11-11-2025 20:04:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 20:04:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'automationcheckout_1762884262269@gmail.com' into element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 20:04:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'automationcheckout_1762884262269@gmail.com' into element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 20:04:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 20:04:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'P@ssw0rd' into element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 20:04:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'P@ssw0rd' into element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 20:04:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //button[@data-qa='login-button']
+[INFO] - [11-11-2025 20:04:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@data-qa='login-button']
+[INFO] - [11-11-2025 20:04:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.tagName: b
+[INFO] - [11-11-2025 20:04:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_checkout' from element: By.tagName: b
+[INFO] - [11-11-2025 20:04:30] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-loginToAccount-2025-11-11_08-04-30.png
+[INFO] - [11-11-2025 20:04:30] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-loginToAccount
+[INFO] - [11-11-2025 20:04:30] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case loginToAccount passed
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Your product has been added to cart.' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.pages.ProductsPage] - Validating item added label: Your product has been added to cart.
+[INFO] - [11-11-2025 20:04:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: p > [href="/view_cart"]
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.cssSelector: p > [href="/view_cart"]
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'])[1]
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Men Tshirt' from element: By.xpath: (//h4  /a[.='Men Tshirt'])[1]
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1]
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 400' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1]
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1]
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1]
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1]
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 400' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1]
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-addProductToCart-2025-11-11_08-04-32.png
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-addProductToCart
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case addProductToCart passed
+[INFO] - [11-11-2025 20:04:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //a[.='Proceed To Checkout']
+[INFO] - [11-11-2025 20:04:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[.='Proceed To Checkout']
+[INFO] - [11-11-2025 20:04:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 20:04:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Mr. Automation_Firstname Automation_Lastname' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 20:04:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 20:04:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Company' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 20:04:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 20:04:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address1' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 20:04:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address2' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '12345 Automation_City Automation_State' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'India' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_phone']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1234567890' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_phone']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Mr. Automation_Firstname Automation_Lastname' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Company' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address1' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address2' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '12345 Automation_City Automation_State' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'India' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_phone']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1234567890' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_phone']
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-checkout-2025-11-11_08-04-34.png
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-checkout
+[INFO] - [11-11-2025 20:04:34] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case checkout passed
+[INFO] - [11-11-2025 20:04:39] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-11-11_08-04-39.html".
+[INFO] - [11-11-2025 20:04:40] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [11-11-2025 20:29:33] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 20:29:34] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 20:29:34] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 20:29:34] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 20:29:34] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 20:29:34] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 20:29:34] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 20:29:34] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 20:29:34] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 20:29:34] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 20:29:35] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 20:29:35] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[DEBUG] - [11-11-2025 20:29:45] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 20:29:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 20:29:46] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 20:29:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 20:29:46] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 20:29:46] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 20:29:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 20:29:46] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 20:29:46] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 20:29:46] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 20:29:47] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 20:29:47] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [11-11-2025 20:29:47] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [11-11-2025 20:29:47] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [11-11-2025 20:29:51] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['companyName']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [11-11-2025 20:29:51] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [11-11-2025 20:29:53] [main] [com.AutomationExercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [11-11-2025 20:29:54] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-registerNewAccount-2025-11-11_08-29-54.png
+[INFO] - [11-11-2025 20:29:54] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-registerNewAccount
+[INFO] - [11-11-2025 20:29:54] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case registerNewAccount passed
+[INFO] - [11-11-2025 20:29:55] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[INFO] - [11-11-2025 20:29:55] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 20:29:55] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'automationcheckout_1762885787357@gmail.com' into element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 20:29:55] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'automationcheckout_1762885787357@gmail.com' into element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 20:29:55] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 20:29:55] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'P@ssw0rd' into element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 20:29:55] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'P@ssw0rd' into element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 20:29:55] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //button[@data-qa='login-button']
+[INFO] - [11-11-2025 20:29:56] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@data-qa='login-button']
+[INFO] - [11-11-2025 20:29:56] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.tagName: b
+[INFO] - [11-11-2025 20:29:56] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_checkout' from element: By.tagName: b
+[INFO] - [11-11-2025 20:29:56] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-loginToAccount-2025-11-11_08-29-56.png
+[INFO] - [11-11-2025 20:29:56] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-loginToAccount
+[INFO] - [11-11-2025 20:29:56] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case loginToAccount passed
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Your product has been added to cart.' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.pages.ProductsPage] - Validating item added label: Your product has been added to cart.
+[INFO] - [11-11-2025 20:29:57] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: p > [href="/view_cart"]
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.cssSelector: p > [href="/view_cart"]
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'])[1]
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Men Tshirt' from element: By.xpath: (//h4  /a[.='Men Tshirt'])[1]
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1]
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 400' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1]
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1]
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1]
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1]
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 400' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1]
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-addProductToCart-2025-11-11_08-29-58.png
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-addProductToCart
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case addProductToCart passed
+[INFO] - [11-11-2025 20:29:58] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //a[.='Proceed To Checkout']
+[INFO] - [11-11-2025 20:29:59] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[.='Proceed To Checkout']
+[INFO] - [11-11-2025 20:29:59] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 20:29:59] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Mr. Automation_Firstname Automation_Lastname' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 20:29:59] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 20:29:59] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Company' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address1' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address2' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '12345 Automation_City Automation_State' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'India' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_phone']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1234567890' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_phone']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Mr. Automation_Firstname Automation_Lastname' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Company' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address1' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address2' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '12345 Automation_City Automation_State' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'India' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_phone']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1234567890' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_phone']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-checkout-2025-11-11_08-30-00.png
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-checkout
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case checkout passed
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //a[.='Place Order']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[.='Place Order']
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.name: name_on_card
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'Automation Card' into element: By.name: name_on_card
+[INFO] - [11-11-2025 20:30:00] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'Automation Card' into element: By.name: name_on_card
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.name: card_number
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: '1234567890123456' into element: By.name: card_number
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: '1234567890123456' into element: By.name: card_number
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.name: cvc
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: '123' into element: By.name: cvc
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: '123' into element: By.name: cvc
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.name: expiry_month
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: '12' into element: By.name: expiry_month
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: '12' into element: By.name: expiry_month
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.name: expiry_year
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: '2036' into element: By.name: expiry_year
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: '2036' into element: By.name: expiry_year
+[INFO] - [11-11-2025 20:30:01] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: submit
+[INFO] - [11-11-2025 20:30:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.id: submit
+[INFO] - [11-11-2025 20:30:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: h2 > b
+[INFO] - [11-11-2025 20:30:03] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'ORDER PLACED!' from element: By.cssSelector: h2 > b
+[INFO] - [11-11-2025 20:30:03] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-paymentTest-2025-11-11_08-30-03.png
+[INFO] - [11-11-2025 20:30:03] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-paymentTest
+[INFO] - [11-11-2025 20:30:03] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case paymentTest passed
+[INFO] - [11-11-2025 20:30:09] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-11-11_08-30-09.html".
+[INFO] - [11-11-2025 20:30:09] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [11-11-2025 20:31:15] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml"
+[INFO] - [11-11-2025 20:31:16] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution started
+[ERROR] - [11-11-2025 20:31:16] [main] [com.AutomationExercise.FileUtils] - Failed to delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log Cannot delete file: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\Logs\logs.log
+[INFO] - [11-11-2025 20:31:16] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-11-2025 20:31:16] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots
+[INFO] - [11-11-2025 20:31:16] [main] [com.AutomationExercise.FileUtils] - Directory created: C:\Users\dell\IdeaProjects\AutomationExercisee\src\test\resources\downloads
+[INFO] - [11-11-2025 20:31:16] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Directories created
+[INFO] - [11-11-2025 20:31:16] [main] [com.AutomationExercise.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-11-2025 20:31:16] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-11-2025 20:31:16] [main] [com.AutomationExercise.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-11-2025 20:31:17] [main] [com.AutomationExercise.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [11-11-2025 20:31:17] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Allure environment set
+[INFO] - [11-11-2025 20:31:17] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\dell\AppData\Local\JetBrains\IdeaIC2025.2\temp-testng-customsuite.xml
+
+[INFO] - [11-11-2025 20:31:17] [main] [com.AutomationExercise.drivers.GUIDriver] - Selected Browser: CHROME
+[INFO] - [11-11-2025 20:31:21] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['companyName']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [11-11-2025 20:31:22] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [11-11-2025 20:31:24] [main] [com.AutomationExercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [11-11-2025 20:31:25] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-registerNewAccount-2025-11-11_08-31-25.png
+[INFO] - [11-11-2025 20:31:25] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-registerNewAccount
+[INFO] - [11-11-2025 20:31:25] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case registerNewAccount passed
+[INFO] - [11-11-2025 20:31:25] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/login
+[INFO] - [11-11-2025 20:31:25] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 20:31:25] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'automationcheckout_1762885877775@gmail.com' into element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 20:31:25] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'automationcheckout_1762885877775@gmail.com' into element: By.xpath: //input[@data-qa='login-email']
+[INFO] - [11-11-2025 20:31:25] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 20:31:25] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'P@ssw0rd' into element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 20:31:25] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'P@ssw0rd' into element: By.xpath: //input[@data-qa='login-password']
+[INFO] - [11-11-2025 20:31:25] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //button[@data-qa='login-button']
+[INFO] - [11-11-2025 20:31:26] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@data-qa='login-button']
+[INFO] - [11-11-2025 20:31:26] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.tagName: b
+[INFO] - [11-11-2025 20:31:26] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_checkout' from element: By.tagName: b
+[INFO] - [11-11-2025 20:31:27] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-loginToAccount-2025-11-11_08-31-27.png
+[INFO] - [11-11-2025 20:31:27] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-loginToAccount
+[INFO] - [11-11-2025 20:31:27] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case loginToAccount passed
+[INFO] - [11-11-2025 20:31:28] [main] [com.AutomationExercise.utils.actions.BrowserActions] - Navigated to URL: https://automationexercise.com/products
+[INFO] - [11-11-2025 20:31:28] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [11-11-2025 20:31:28] [main] [com.AutomationExercise.utils.actions.ElementActions] - Hovered over element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt']
+[INFO] - [11-11-2025 20:31:28] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [11-11-2025 20:31:28] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='productinfo text-center'] /p[.='Men Tshirt'] //following-sibling::a
+[INFO] - [11-11-2025 20:31:28] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:28] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:28] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:28] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:28] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:28] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:29] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Your product has been added to cart.' from element: By.cssSelector: .modal-body > p
+[INFO] - [11-11-2025 20:31:30] [main] [com.AutomationExercise.pages.ProductsPage] - Validating item added label: Your product has been added to cart.
+[INFO] - [11-11-2025 20:31:30] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: p > [href="/view_cart"]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.cssSelector: p > [href="/view_cart"]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'])[1]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Men Tshirt' from element: By.xpath: (//h4  /a[.='Men Tshirt'])[1]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 400' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Rs. 400' from element: By.xpath: (//h4  /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-addProductToCart-2025-11-11_08-31-31.png
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-addProductToCart
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case addProductToCart passed
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //a[.='Proceed To Checkout']
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[.='Proceed To Checkout']
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Mr. Automation_Firstname Automation_Lastname' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Company' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address1' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address2' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '12345 Automation_City Automation_State' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'India' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_phone']
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1234567890' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_phone']
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 20:31:31] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Mr. Automation_Firstname Automation_Lastname' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Company' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][1]
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address1' from element: By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'Automation_Address2' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][3]
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '12345 Automation_City Automation_State' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_city address_state_name address_postcode']
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'India' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_country_name']
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_phone']
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: '1234567890' from element: By.xpath: //ul[@id='address_invoice'] /li[@class='address_phone']
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-checkout-2025-11-11_08-31-32.png
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-checkout
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case checkout passed
+[INFO] - [11-11-2025 20:31:32] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.xpath: //a[.='Place Order']
+[INFO] - [11-11-2025 20:31:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[.='Place Order']
+[INFO] - [11-11-2025 20:31:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.name: name_on_card
+[INFO] - [11-11-2025 20:31:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: 'Automation Card' into element: By.name: name_on_card
+[INFO] - [11-11-2025 20:31:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: 'Automation Card' into element: By.name: name_on_card
+[INFO] - [11-11-2025 20:31:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.name: card_number
+[INFO] - [11-11-2025 20:31:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: '1234567890123456' into element: By.name: card_number
+[INFO] - [11-11-2025 20:31:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: '1234567890123456' into element: By.name: card_number
+[INFO] - [11-11-2025 20:31:33] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.name: cvc
+[INFO] - [11-11-2025 20:31:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: '123' into element: By.name: cvc
+[INFO] - [11-11-2025 20:31:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: '123' into element: By.name: cvc
+[INFO] - [11-11-2025 20:31:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.name: expiry_month
+[INFO] - [11-11-2025 20:31:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: '12' into element: By.name: expiry_month
+[INFO] - [11-11-2025 20:31:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: '12' into element: By.name: expiry_month
+[INFO] - [11-11-2025 20:31:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.name: expiry_year
+[INFO] - [11-11-2025 20:31:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typing text: '2036' into element: By.name: expiry_year
+[INFO] - [11-11-2025 20:31:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Typed text: '2036' into element: By.name: expiry_year
+[INFO] - [11-11-2025 20:31:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.id: submit
+[INFO] - [11-11-2025 20:31:34] [main] [com.AutomationExercise.utils.actions.ElementActions] - Clicked on element: By.id: submit
+[ERROR] - [11-11-2025 20:31:36] [main] [com.AutomationExercise.utils.actions.ElementActions] - Failed to retrieve text from element: By.cssSelector: h2 > b - no such element: Unable to locate element: {"method":"css selector","selector":"h2 > b"}
+  (Session info: chrome=142.0.7444.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6bca7e758cfcf349d1f185328faa08e, findElement {value=h2 > b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62396}, goog:processID: 10692, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62396/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6bca7e758cfcf349d1f185328faa08e
+[INFO] - [11-11-2025 20:31:36] [main] [com.AutomationExercise.utils.actions.ElementActions] - Scrolled to element: By.cssSelector: h2 > b
+[INFO] - [11-11-2025 20:31:36] [main] [com.AutomationExercise.utils.actions.ElementActions] - Retrieved text: 'ORDER PLACED!' from element: By.cssSelector: h2 > b
+[INFO] - [11-11-2025 20:31:36] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-paymentTest-2025-11-11_08-31-36.png
+[INFO] - [11-11-2025 20:31:36] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-paymentTest
+[INFO] - [11-11-2025 20:31:36] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case paymentTest passed
+[INFO] - [11-11-2025 20:31:37] [main] [com.AutomationExercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [11-11-2025 20:31:37] [main] [com.AutomationExercise.media.ScreenShotsManager] - Saved screenshot to disk: C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\screenshots\passed-deleteAccountAsPostCondition-2025-11-11_08-31-37.png
+[INFO] - [11-11-2025 20:31:37] [main] [com.AutomationExercise.media.ScreenShotsManager] - Capturing Screenshot Succeeded passed-deleteAccountAsPostCondition
+[INFO] - [11-11-2025 20:31:37] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Case deleteAccountAsPostCondition passed
+[INFO] - [11-11-2025 20:31:44] [main] [com.AutomationExercise.FileUtils] - Target File Path: "C:\Users\dell\IdeaProjects\AutomationExercisee\test-output\reports\index.html", file was renamed to "AllureReport_2025-11-11_08-31-44.html".
+[INFO] - [11-11-2025 20:31:44] [main] [com.AutomationExercise.Listeners.TestNGListeners] - Test Execution Finished
