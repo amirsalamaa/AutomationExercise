@@ -44,9 +44,6 @@ public class RegisterTest extends BaseTest {
                 )
                 .clickOnCreateAccountButton()
                 .verifyAccountCreatedSuccessfully();
-//        new UserManagementAPI().deleteUserAccount(testData.getJsonData("email")+timeStamp+"@gmail.com"
-//                        ,testData.getJsonData("password" ))
-//                .verifyUserDeletedSuccessfully();
     }
 
     @Test

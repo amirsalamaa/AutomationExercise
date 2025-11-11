@@ -1,7 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1741","loginToAccount","Automation Exercise","2025-11-11","passed","2025-11-11","com.AutomationExercise.tests.ui.PaymentTest","AutomationExercisee","com.AutomationExercise.tests.ui.PaymentTest","loginToAccount"
-"","3731","registerNewAccount","Automation Exercise","2025-11-11","passed","2025-11-11","com.AutomationExercise.tests.ui.PaymentTest","AutomationExercisee","com.AutomationExercise.tests.ui.PaymentTest","registerNewAccount"
-"","4234","addProductToCart","Automation Exercise","2025-11-11","passed","2025-11-11","com.AutomationExercise.tests.ui.PaymentTest","AutomationExercisee","com.AutomationExercise.tests.ui.PaymentTest","addProductToCart"
-"","4036","paymentTest","Automation Exercise","2025-11-11","passed","2025-11-11","com.AutomationExercise.tests.ui.PaymentTest","AutomationExercisee","com.AutomationExercise.tests.ui.PaymentTest","paymentTest"
-"","1482","deleteAccountAsPostCondition","Automation Exercise","2025-11-11","passed","2025-11-11","com.AutomationExercise.tests.ui.PaymentTest","AutomationExercisee","com.AutomationExercise.tests.ui.PaymentTest","deleteAccountAsPostCondition"
-"","885","checkout","Automation Exercise","2025-11-11","passed","2025-11-11","com.AutomationExercise.tests.ui.PaymentTest","AutomationExercisee","com.AutomationExercise.tests.ui.PaymentTest","checkout"
+"","46","signUpTC","Automation Exercise","2025-10-18","passed","2025-10-18","com.AutomationExercise.tests.RegisterTest","AutomationExercisee","com.AutomationExercise.tests.RegisterTest","signUpTC"
